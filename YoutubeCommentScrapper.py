@@ -10,7 +10,7 @@ try:
 except:
     CONFIG_KEY = None
 
-API_KEY = CONFIG_KEY or st.secrets.get("API_KEY")
+API_KEY = st.secrets.get("API_KEY")
 
 if not API_KEY:
     raise RuntimeError("API key missing in config.py or secrets.")
