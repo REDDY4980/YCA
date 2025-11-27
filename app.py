@@ -97,7 +97,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 # ===========================================================
 with st.sidebar:
     st.markdown("## YCA Dashboard")
-    st.caption("YouTube Comment Analyzer — By Reddy")
+    st.caption("YouTube Comment Analyzer")
     st.markdown("---")
     st.markdown("Paste a YouTube URL and click **Analyse**.")
 
